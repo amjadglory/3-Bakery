@@ -1,0 +1,370 @@
+/*! classes */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.float {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.vertical-align-t {
+  vertical-align: top;
+}
+
+.grey-color {
+  color: #686868;
+}
+
+.black-color {
+  color: black;
+}
+
+.border-top {
+  border-top: 4px solid #ae9768;
+}
+
+/*! heading style */
+.header {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+.go-down {
+  border: 2px solid rgb(211, 211, 211);
+  height: 50px;
+  width: 30px;
+  border-radius: 20px;
+  margin: 90px auto 0;
+}
+.go-down-point {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+/*? nav style */
+.nav {
+  background-color: white;
+  padding: 5px;
+}
+
+.logo {
+  width: 60%;
+}
+
+.logo img {
+  width: 175px;
+  margin-left: 70px;
+}
+
+.navLinks {
+  margin: 15px 0 0px 0;
+}
+.navLinks a {
+  text-decoration: none;
+  padding: 16px 15px;
+  font-size: 18px;
+}
+
+/*? header content style */
+.headerContent {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+
+.headerContent h3 {
+  font-size: 22px;
+}
+.headerContent h1 {
+  font-size: 76px;
+  padding: 30px;
+  font-size: 76px;
+}
+.headerContent P {
+  font-size: 24px;
+  padding: 0px 30px 20px;
+}
+.headerContent button {
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+.learn-btn {
+  background-color: #ae9768;
+  border: none;
+}
+.contact-btn {
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+/*! who we are style */
+.whoWeAre {
+  margin: 60px;
+}
+.whoWeAre-img {
+  width: 45%;
+  padding: 20px;
+}
+.whoWeAre-content {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.whoWeAre-content img {
+  width: 40px;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 50%;
+}
+
+.whoWeAre-content p {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.whoWeAre-content .whoWeAre-parag {
+  font-size: 22px;
+}
+
+.whoWeAre-content {
+  padding-left: 50px;
+}
+
+.whoWeAre-content h2,
+.whoWeAre-contentp {
+  padding-block: 20px;
+  font-size: 32px;
+}
+
+.whoWeAre-content .whoWeAre-elements {
+  padding-top: 20px;
+}
+.whoWeAre-content .whoWeAre-elements .whoWeAre-element {
+  padding-top: 10px;
+}
+
+/*! our location */
+
+.ourLocation {
+  margin: 80px 0;
+  background-color: #f8f8f8;
+  width: 100%;
+  padding-block: 50px;
+}
+
+.ourLocation img,
+.ourLocation-text {
+  width: 40%;
+  margin-left: 80px;
+}
+.ourLocation img {
+  padding: 30px;
+}
+.ourLocation-text {
+  margin-top: 110px;
+}
+.ourLocation-text h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.ourLocation-text p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/*! our baking styling */
+
+/*? our baking heading */
+.our-baking {
+  margin: 80px;
+  text-align: center;
+}
+
+.our-baking-heading h2 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: RGB(48, 48, 48);
+}
+.our-baking-heading p {
+  padding-bottom: 60px;
+  font-size: 17px;
+  color: RGB(136, 136, 136);
+}
+
+/*? our baking cards */
+
+.our-baking-cards .our-baking-card {
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+
+.our-baking-cards .our-baking-card img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.our-baking-cards .our-baking-card h4 {
+  margin-bottom: 30px;
+  color: RGB(48, 48, 48);
+  font-size: 22px;
+}
+.our-baking-cards .our-baking-card p {
+  margin-bottom: 30px;
+  color: RGB(104, 104, 104);
+  font-size: 17px;
+  line-height: 30px;
+}
+
+/*! contact styling */
+
+.contact {
+  padding-top: 30px;
+  background-color: #f8f8f8;
+}
+
+.contact .contact-info,
+.contact .map {
+  margin: 80px;
+  width: 30%;
+  float: left;
+}
+
+.contact-info h4 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #303030;
+}
+
+.contact-info p,
+.contact-item p {
+  color: #686868;
+  font-size: 17px;
+}
+.contact-info p {
+  margin-bottom: 30px;
+}
+
+.contact-item img,
+.contact-item p {
+  float: left;
+}
+
+.contact-item p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contact-item img {
+  width: 40px;
+  background-color: #8e7754;
+  border-radius: 50%;
+}
+
+/*! pre footer styling */
+
+.pre-footer{
+  background-color: #403D38;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+
+.about-us h4,
+.special h4,
+.hours h4,
+.contact-details h4,
+.contact-details h4{
+  color: white;
+  margin-bottom: 40px;
+}
+
+.special .speciality img,
+.hours .hour img,
+.contact-details .contact-detail img {
+  width: 30px;
+  float: left;
+  padding-top: 7px;
+}
+
+.about-us p,
+.special .speciality p,
+.hours .hour p,
+.contact-details .contact-detail p,
+.contact-details .contact-detail a {
+  color: #969696;
+  font-size: 14px;
+  text-decoration: none;
+  float: left;
+  padding-bottom: 15px;
+  width: 85%;
+  padding-top: 15px;
+}
+
+.special .speciality ,
+.hours .hour ,
+.contact-details .contact-detail ,
+.contact-details .contact-detail {
+  border-bottom: 1px solid #5a5a5a;
+}
+
+.about-us,
+.special,
+.hours,
+.contact-details,
+.contact-details {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.about-us{
+  margin-left: 80px;
+}
+
+.contact-details .contact-container{
+  background-image: url(../images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer{
+  background-color: #353330;
+  text-align: center;
+}
+.footer .social img{
+  width: 40px;
+  background-color: #47443F;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.footer img{
+  margin: 2px;
+}
+
+.footer .bakery-img{
+  margin-block: 40px;
+}
+.footer p{
+  margin-bottom: 20px;
+  color: #686868;
+}
